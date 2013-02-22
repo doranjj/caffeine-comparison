@@ -1,0 +1,31 @@
+<!DOCTYPE html>  
+<html lang="en">
+<head>  
+<meta charset="utf-8">  
+<title>Caffeine Calculator</title>  
+<meta name="keywords" content="Caffiene content of energy drinks" />    
+</head>  
+<body>  
+  <h1>Energy Drink Caffeine Content</h1>   
+	  <form name='registration' onselect="return formValidation();">     
+			<li><label for="edrink">Energy Drinks:</label></li>  
+		<button onclick="fivehr('80', 'mg')">5 Hour Energy</button> 
+
+ 
+		</form>  
+
+<Script>
+
+  function fivehr(number, mg) 
+
+{
+    alert("5 Hour Energy contains " + number + mg + " of caffeine. This equals " + number/100 + "cups of coffee.");
+}
+
+  
+</script>
+
+
+</body>  
+
+</html>  
